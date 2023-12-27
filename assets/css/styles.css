@@ -382,28 +382,39 @@ img {
   grid-template-columns: repeat(2, 1fr) !important;
   width: 80%;
   margin: auto;
+  
 }
 .work_div {
   width: 90%;
   text-align: center;
   margin-bottom: 40px;
-  padding: 28px;
+  padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   cursor: pointer;
+ 
+  
   transition: all 0.5s ease-in-out;
 }
 .work_div:hover {
   transform: translateY(-10px);
 }
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0px 4px 25px rgba(212, 33, 232, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
+
 .work__img img {
-  transition: 1s;
+  transition: 2s;
+  /* border: 1px solid rgb(203, 188, 188); */
+  border-radius: 20px;
+
 }
 
 .work__img img:hover {
